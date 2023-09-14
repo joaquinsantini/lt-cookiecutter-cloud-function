@@ -1,0 +1,10 @@
+{
+    "cloud_function_name": "A lowercase name, e.g. my-cloud-function",
+    "cloud_function_description": "Function purpose",
+    "memory": "Memory in MB allowed. Left in blank for default (256Mb), e.g. 512, 1024",
+    "timeout": "Timeout in seconds. Left in blank for default (60s), e.g. 120, 360",
+    "set_secrets": "Secrets exposed as environment variables. Left in blank if you don't need secrets, e.g. MY_CREDENTIALS=projects/de-cookiecutter-demo/secrets/myCredentials:latest",
+    "set_env_vars": "Environment variables. Left in blank if you don't need environment variables, e.g. BUCKET=my-bucket-dev,OUTPUT_PATH=my_output_folder",
+    "trigger_bucket": "Trigger bucket. Left in blank if your cloud function trigger is HTTP",
+    "snowflake_flag": "Does the cloud function need to connect to Snowflake? (Y/N)"
+}

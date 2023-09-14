@@ -1,0 +1,7 @@
+DEV: &config
+  runtime: python311
+  description: cookiecutter.cloud_function_description
+  entry-point: main
+  service-account: gcf-runtime@data-analytics-dev-fj5h.iam.gserviceaccount.com
+  timeout: cookiecutter.timeout
+  memory: cookiecutter.memory
